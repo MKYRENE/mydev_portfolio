@@ -80,6 +80,13 @@ p {
     padding: 45px;
     background-color: #2b145c;
     border-radius: 55px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.description {
+    font-size: 25px;
+    text-align: center;
 
 }
 
@@ -91,16 +98,19 @@ main {
 
 /* PLACEHOLDER IMAGE */
 .profile-pic {
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 650px;
     color: #9590b5;
     padding: 10px;
+}
+.profile-pic:hover {
+    filter: brightness(150%);
 }
 
 /*  SITE IMAGE */
 .site {
-    width: 300px;
-    height: 450px;
+    width: 400px;
+    height: 650px;
     padding: 10px;
     color: antiquewhite
 }
@@ -123,6 +133,7 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
+    align-content: center;
     color: aliceblue;
 }
 
@@ -136,8 +147,8 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
-    width: 370px;
-    height: 550px;
+    width: 470px;
+    height: 750px;
     padding: 10px;
     color: antiquewhite;
 }
@@ -150,14 +161,31 @@ main {
 /* CONTACT SECTION  */
 .contact {
     color: white;
+    font-size: 15px;
+    text-align:center;
+    align-items: center;
 }
 
+#contact-title {
+    font-size: 30px;
+    text-align: center;
+}
+#contact-info {
+    display: flex;
+}
+
+#contact-info-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* MEDIA SECTION FOR SMALLER SCREENS */
 @media(max-width:768px) {
     p {
         padding: 10px;
         background: none;
     }
-
+/* HEADER STYLING  */
     header h1 {
         font-size: 45px;
         text-align: center;
