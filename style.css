@@ -8,11 +8,15 @@ body {
     color: #fff
 }
 
+img {
+    max-width: 100%;
+}
+
 /* THE HEADER OF THE PAGE STYLING  */
 header {
     background-color: #232738;
     color: #e2dddf;
-    padding: 25px;
+    padding: 20px;
     border-radius: 30px;
     font-family: 'Times New Roman', Times, serif
 }
@@ -25,7 +29,7 @@ nav ul {
     display: flex;
 }
 
-nav ul li {
+nav ul li:not(:last-child) {
     margin-right: 25px;
 }
 
@@ -33,6 +37,11 @@ nav ul li a {
     color: #3a83c3;
     font-weight: bold;
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+
 }
 
 /* NAVIGATION LINKS  */
@@ -60,6 +69,12 @@ h1 {
     padding: 5px;
 
 }
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
 /* PARAGRAPH ELEMENTS STYLING */
 p {
     padding: 45px;
@@ -114,6 +129,7 @@ main {
 .btn:hover {
     color: #e6cb32
 }
+
 /* RESUME SECTION  */
 .resume {
     font-weight: bold;
@@ -130,7 +146,41 @@ main {
     color: #32e6cb;
     filter: brightness(150%);
 }
+
 /* CONTACT SECTION  */
 .contact {
     color: white;
+}
+
+@media(max-width:768px) {
+    p {
+        padding: 10px;
+        background: none;
+    }
+
+    header h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    header nav ul {
+        justify-content: center;
+
+    }
+
+    header nav ul li .link {
+        font-size: 20px !important;
+
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #intro,
+    #work #resume #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
