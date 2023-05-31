@@ -5,9 +5,9 @@ body {
     padding: 0;
     background-color: rgba(44, 59, 79, 0.915);
     overflow: scroll;
-    color: #fff
+    color: #faf9f9fe
 }
-
+/* IMAGE STYLING  */
 img {
     max-width: 100%;
 }
@@ -21,7 +21,7 @@ header {
     font-family: 'Times New Roman', Times, serif
 }
 
-/* NAVIGATION LINKS STYLING */
+/* NAVIGATION/UNORDER/LIST LINKS STYLING */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -44,7 +44,7 @@ ul {
 
 }
 
-/* NAVIGATION LINKS  */
+/* NAVIGATION LINKS CLASS */
 .link {
     text-align: left;
     font-size: 30px;
@@ -63,13 +63,14 @@ h1 {
     border-radius: 5px;
 }
 
-/* ABOUT ME SECTION */
+/* ABOUT ME CLASS SECTION */
 .about {
     margin: 15px;
     padding: 5px;
 
 }
 
+/* H2 ELEMENT STYLING */
 h2 {
     font-size: 45px;
     text-align: center;
@@ -84,9 +85,11 @@ p {
     text-align: center;
 }
 
+/* 2ND <P> ELEMENT CLASS  */
 .description {
     font-size: 25px;
     text-align: center;
+    margin-bottom: 20px;
 
 }
 
@@ -96,31 +99,33 @@ main {
     padding: 55px;
 }
 
-/* PLACEHOLDER IMAGE */
+/* PROFILE PIC- IMAGE CLASS */
 .profile-pic {
     width: 500px;
     height: 650px;
     color: #9590b5;
     padding: 10px;
 }
+
 .profile-pic:hover {
     filter: brightness(150%);
 }
 
-/*  SITE IMAGE */
+/*  SITE IMAGE CLASS */
 .site {
-    width: 400px;
-    height: 650px;
+    width: 450px;
+    height: 600px;
     padding: 10px;
-    color: antiquewhite
+    color: antiquewhite;
 }
 
+/* SITE IMAGE CLASS HOVER */
 .site:hover {
     color: #32e6cb;
     filter: brightness(150%);
 }
 
-/* FRIST PROJECT */
+/* FRIST PROJECT CLASS */
 .work-item {
     font-family: 'Abel';
     font-size: medium;
@@ -137,46 +142,50 @@ main {
     color: aliceblue;
 }
 
+/* lINK TO HORISEON SITE HOVER */
 .btn:hover {
     color: #e6cb32
 }
 
-/* RESUME SECTION  */
+/* RESUME SECTION CLASS  */
 .resume {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
-    width: 470px;
+    width: 400px;
     height: 750px;
     padding: 10px;
     color: antiquewhite;
 }
 
+/* RESUME SECTION CLASS HOVER */
 .resume:hover {
     color: #32e6cb;
     filter: brightness(150%);
 }
 
-/* CONTACT SECTION  */
+/* CONTACT SECTION CLASS  */
 .contact {
     color: white;
     font-size: 15px;
-    text-align:center;
+    text-align: center;
     align-items: center;
 }
 
+/* CONTACT ID SELECTOR  */
 #contact-title {
     font-size: 30px;
     text-align: center;
 }
+
 #contact-info {
     display: flex;
 }
 
 #contact-info-container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* MEDIA SECTION FOR SMALLER SCREENS */
@@ -185,7 +194,8 @@ main {
         padding: 10px;
         background: none;
     }
-/* HEADER STYLING  */
+
+    /* HEADER STYLING  */
     header h1 {
         font-size: 45px;
         text-align: center;
@@ -205,6 +215,7 @@ main {
         padding: 10px;
     }
 
+    /* MEDIA ID SELECTOR */
     #intro,
     #work #resume #contact {
         display: flex;
