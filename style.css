@@ -11,9 +11,9 @@ body {
 /* THE HEADER OF THE PAGE STYLING  */
 header {
     background-color: #232738;
-    color: #dabac5;
-    padding: 20px;
-    border-radius: 35px;
+    color: #e2dddf;
+    padding: 25px;
+    border-radius: 30px;
     font-family: 'Times New Roman', Times, serif
 }
 
@@ -37,9 +37,9 @@ nav ul li a {
 
 /* NAVIGATION LINKS  */
 .link {
-    font-size: 20px;
+    text-align:left;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    padding: none;
 }
 
 .link:hover {
@@ -49,18 +49,21 @@ nav ul li a {
 /* HEADER MY PERSONAL PORTFOLIO STYLING */
 
 h1 {
-    font-size: 40px;
+    font-size: 70px;
+    text-align: left;
+    border-radius: 5px;
 }
 
+
 .about {
-    margin: 25px;
-    padding: 25px;
+    margin: 15px;
+    padding: 5px;
 
 }
 
 p {
     padding: 45px;
-    background-color: #3e3454;
+    background-color: #2b145c;
     border-radius: 55px;
 
 }
@@ -79,18 +82,23 @@ main {
     padding: 10px;
 }
 
-/* HORISEON SITE IMAGE */
-.horiseon-site {
+/*  SITE IMAGE */
+.site {
     width: 300px;
     height: 450px;
     padding: 10px;
+    color:antiquewhite
 }
 
+.site:hover {
+    color: #32e6cb;
+    filter: brightness(150%);
+}
 /* FRIST PROJECT */
 .work-item {
     font-family: 'Abel';
     font-size: medium;
-    color: rgb(192, 191, 223);
+    color: rgb(206, 206, 225);
 }
 
 /* lINK TO HORISEON SITE */
@@ -98,22 +106,32 @@ main {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    text-align: center;
     color: aliceblue;
 }
 
 .btn:hover {
-    color: #32e6cb
+    color: #e6cb32
 }
-/* 2ND PROJECT QUINOA SITE */
-.quinoa {
-    width:300px;
-    height:450px;
-    padding:10px;
+.resume {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+    width: 370px;
+    height: 550px;
+    padding: 10px;
+    color:antiquewhite
 }
 
+.resume:hover {
+    color: #32e6cb;
+    filter: brightness(150%); 
+}
 
-/*  */
-section {
-    margin: bottom 15px;
-    ;
+.contact {
+    color: white;
+    border-radius: 100px;
+    
 }
