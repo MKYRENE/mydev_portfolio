@@ -37,7 +37,7 @@ nav ul li a {
 
 /* NAVIGATION LINKS  */
 .link {
-    text-align:left;
+    text-align: left;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -87,13 +87,14 @@ main {
     width: 300px;
     height: 450px;
     padding: 10px;
-    color:antiquewhite
+    color: antiquewhite
 }
 
 .site:hover {
     color: #32e6cb;
     filter: brightness(150%);
 }
+
 /* FRIST PROJECT */
 .work-item {
     font-family: 'Abel';
@@ -113,6 +114,7 @@ main {
 .btn:hover {
     color: #e6cb32
 }
+
 .resume {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -122,16 +124,16 @@ main {
     width: 370px;
     height: 550px;
     padding: 10px;
-    color:antiquewhite
+    color: antiquewhite
 }
 
 .resume:hover {
     color: #32e6cb;
-    filter: brightness(150%); 
+    filter: brightness(150%);
 }
 
 .contact {
     color: white;
     border-radius: 100px;
-    
+
 }
