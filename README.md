@@ -5,7 +5,7 @@ Personal development portfolio website showcasing my web development skills, pro
 
 Welcome to My Portfolio! This project showcases my skills, projects, and contact information in a single-page web application. It serves as a central hub for potential employers or clients to learn more about my work and get in touch with me.
 
-![website screenshot](./mydev_website.png)
+![website screenshot](./Assets/mydev_website.png) 
 ## Table of Contents
 
 - [Description](#description)
