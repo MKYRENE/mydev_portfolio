@@ -4,6 +4,7 @@
 Personal development portfolio website showcasing my web development skills, projects, and experience.
 
 Welcome to My Portfolio! This project showcases my skills, projects, and contact information in a single-page web application. It serves as a central hub for potential employers or clients to learn more about my work and get in touch with me.
+
 ![website screenshot](./mydev_website.png)
 ## Table of Contents
 
@@ -19,8 +20,7 @@ My Portfolio is a web application designed to present my portfolio of work sampl
 
 The project is built using standard HTML, & CSS. It incorporates responsive design techniques, including the use of flexbox and media queries, to ensure optimal viewing experience across various devices and screen sizes.
 
-REPO URL:https://github.com/MKYRENE/mydev_portfolio.git
-SITE URL:
+SITE URL: https://mkyrene.github.io/mydev_portfolio/
 
 ## Features
 
@@ -51,10 +51,3 @@ Feel free to modify and adapt the project according to your preferences and need
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-You can use this README template as a starting point and modify it to fit your specific project details. Remember to provide accurate and up-to-date information in each section to effectively communicate the purpose and features of your portfolio site.
-
-Make sure to include any necessary installation or setup instructions, along with information on how to customize and personalize the project to reflect your own work and style.
-
-If you have any more questions or need further assistance, feel free to ask!
