@@ -54,13 +54,13 @@ h1 {
     border-radius: 5px;
 }
 
-
+/* ABOUT ME SECTION */
 .about {
     margin: 15px;
     padding: 5px;
 
 }
-
+/* PARAGRAPH ELEMENTS STYLING */
 p {
     padding: 45px;
     background-color: #2b145c;
@@ -114,26 +114,23 @@ main {
 .btn:hover {
     color: #e6cb32
 }
-
+/* RESUME SECTION  */
 .resume {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
-    color: aliceblue;
     width: 370px;
     height: 550px;
     padding: 10px;
-    color: antiquewhite
+    color: antiquewhite;
 }
 
 .resume:hover {
     color: #32e6cb;
     filter: brightness(150%);
 }
-
+/* CONTACT SECTION  */
 .contact {
     color: white;
-    border-radius: 100px;
-
 }
